@@ -1,0 +1,9 @@
+apiVersion: moniepoint.com/v1b1
+
+metadata:
+  name: gopher-eshu-demo
+  annotations:
+    eshu.moniepoint.com/team-name: "quantum-heap"
+    eshu.moniepoint.com/department-name: "rand"
+    eshu.moniepoint.com/spec-role: base
+      

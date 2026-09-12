@@ -1,0 +1,25 @@
+image:
+  repository: ""
+  tag: "0.1.0"
+
+imagePullSecrets:
+  - name: "regcred-gar"
+
+replicaCount: 1
+
+service:
+  port: 8080
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+eshu:
+  team: ""
+  department: ""
+  version: ""
+  managedBy: ""

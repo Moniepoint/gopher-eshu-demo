@@ -1,0 +1,2 @@
+# Dev environment overrides — merged on top of values.yaml by `eshu pipeline deploy --env dev`
+replicaCount: 1
